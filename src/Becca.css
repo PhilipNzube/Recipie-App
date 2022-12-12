@@ -1,0 +1,1162 @@
+@media only screen and (min-width: 779px) {
+  wh {
+    font-size: 20px;
+    padding-bottom: 1000px;
+    width: 85%;
+    line-height: 2px;
+    border-radius: 5px;
+  }
+
+  #Loader{
+    margin-top: 25%;
+    font-size: 280%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:rgb(66, 2, 2);
+    text-shadow: 0px 0px 5px;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(0.2em);
+    box-shadow: 0px 0px 5px;
+    width: 99%;
+  }
+
+  #Home {
+    position: relative;
+    left: 5%;
+    font-size: 120%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #About {
+    position: relative;
+    left: 45%;
+    font-size: 120%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #Contact {
+    position: relative;
+    left: 80%;
+    font-size: 120%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #meat {
+    position: relative;
+    left:2%;
+    width: 20%;
+    height:150px;
+    background: black url("./Images/meatpie.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #meat:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #MeatText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  
+  #beans {
+    position: relative;
+    left:2%;
+    width: 20%;
+    height:150px;
+    background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #beans:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #BeansText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  
+  #tomato {
+    position: relative;
+    left:78%;
+    bottom: 560px;
+    width: 20%;
+    height:150px;
+    background: black url("./Images/tomato.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #tomato:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #TomatoText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+
+  #vegetable{
+    position: relative;
+    bottom: 400px;
+    left:78%;
+    width: 20%;
+    height:150px;
+    background: black url("./Images/vegetable.jpg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #vegetable:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #VegetableText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+
+  #chin {
+    position: relative;
+    bottom: 480px;
+    left:78%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #chin:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #ChinChinText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #ewedu {
+    position: relative;
+    left:2%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #ewedu:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #EweduText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #fried {
+    position: relative;
+    left:40%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #fried:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #FriedText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #jellof {
+    position: relative;
+    left:2%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #jellof:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #JellofText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #pancakes {
+    position: relative;
+    left:40%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #pancakes:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #PancakeText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #puff {
+    position: relative;
+    bottom: 100px;
+    left:2%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #puff:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #PuffPuffText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #spring {
+    position: relative;
+    left:40%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #spring:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #SpringRollText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #cake {
+    position: relative;
+    bottom:380px;
+    left:78%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #cake:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #CakeText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #coconut {
+    position: relative;
+    bottom: 390px;
+    left:78%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #coconut:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #CoconutText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+  #okra {
+    position: relative;
+    left:40%;
+    width: 20%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #okra:hover{
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+  
+  #OkraText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 230%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #Home {
+    position: relative;
+    left: 1%;
+    font-size: 120%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #Loader{
+    margin-top: 70%;
+    font-size: 280%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:rgb(66, 2, 2);
+    text-shadow: 0px 0px 5px;
+  }
+
+  #About {
+    position: relative;
+    left: 30%;
+    font-size: 120%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #Contact {
+    position: relative;
+    left: 60%;
+    font-size: 120%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(0.2em);
+    width: 95%;
+  }
+
+
+  .wh>a {
+    margin: 3px;
+    color: black;
+    font-size: 30px;
+  }
+
+
+
+
+  #textsection {
+    position: relative;
+    right: 30px;
+    color: skyblue;
+  }
+
+  #control {
+    position: relative;
+    right: 30px;
+  }
+
+  #meat {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    background: black url("./Images/meatpie.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #meat:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #MeatText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  
+  #beans {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #beans:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #BeansText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  
+  #tomato {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    background: black url("./Images/tomato.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #tomato:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #TomatoText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+
+  #vegetable{
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    background: black url("./Images/vegetable.jpg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #vegetable:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #VegetableText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+
+  #chin {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #chin:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #ChinChinText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #ewedu {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #ewedu:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #EweduText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #fried {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #fried:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #FriedText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #jellof {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #jellof:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #JellofText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #pancakes {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #pancakes:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #PancakeText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #puff {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #puff:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #PuffPuffText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #spring {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #spring:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #SpringRollText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #cake {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #cake:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #CakeText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #coconut {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #coconut:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #CoconutText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+  #okra {
+    position: relative;
+    left:2.5%;
+    width: 95%;
+    height:150px;
+    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+  
+  #okra:hover{
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+  
+  #OkraText{
+    color: blue;
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 200%;
+  }
+
+  #name {
+    padding: 4px;
+    border-radius: 10px;
+
+  }
+
+  .h {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .com {
+    font-size: 10px;
+  }
+
+  #textsection {
+    height: 5%;
+    float: none;
+
+  }
+
+  #controls {
+    float: none;
+  }
+
+  body {
+    width: 90%;
+  }
+
+}
+
+#Container {
+  display: none;
+}
+
+#NAVIGATION {
+  display: none;
+  text-decoration: none;
+}
+
+#ChinImage {
+  width: 20%;
+  height:150px;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+}
+
+#PuffImage {
+  width: 20%;
+  height:150px;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+}
+
+#PancakeImage {
+  width: 20%;
+  height:150px;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+}
+
+#SpringRollImage {
+  width: 20%;
+  height:150px;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+}
+
+#JellofImage {
+  width: 20%;
+  height:150px;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+}
+
+#Home {
+  font-size: 120%;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#About {
+  font-size: 120%;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Contact {
+  font-size: 120%;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Home:hover{
+  cursor: pointer;
+}
+
+#About:hover{
+  cursor: pointer;
+}
+
+#Contact:hover{
+  cursor: pointer;
+}
+
+
+h2{
+  text-decoration: underline;
+  text-decoration-color: rgb(80, 0, 0);
+  text-decoration-thickness: 6px;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.wh {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.637);
+  box-shadow: 0px 0px 50px;
+  height: 100%;
+  width: 80%;
+  opacity: 0.8;
+  position: relative;
+  left: 10%;
+  font-family: OCR A Std, monospace;
+  font-weight: bolder;
+  border-radius: 5px;
+  animation-name: SlideIn;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  backdrop-filter: blur(0.2em);
+}
+
+@keyframes SlideIn{
+  0%{
+    margin-top: 510px; 
+  }
+  5%{
+    margin-top: 460px; 
+  }
+  10%{
+    margin-top: 430px; 
+  }
+  15%{
+    margin-top: 400px; 
+  }
+  20%{
+    margin-top: 370px; 
+  }
+  25%{
+    margin-top: 340px; 
+  }
+  30%{
+    margin-top: 310px;
+  }
+  35%{
+    margin-top: 280px;
+  }
+  40%{
+    margin-top: 250px;
+  }
+  45%{
+    margin-top: 220px;
+  }
+  50%{
+    margin-top: 190px;
+  }
+  55%{
+    margin-top: 160px;
+  }
+  60%{
+    margin-top: 130px;
+  }
+  65%{
+    margin-top: 100px;
+  }
+  70%{
+    margin-top: 90px;
+  }
+  75%{
+    margin-top: 80px;
+  }
+  80%{
+    margin-top: 70px;
+  }
+  85%{
+    margin-top: 60px;
+  }
+  90%{
+    margin-top: 50px;
+  }
+  95%{
+    margin-top: 40px;
+  }
+  100%{
+    margin-top: 30px;
+  }
+}
+
+.wh:hover {
+  opacity: 0.9;
+}
+
+.wh>a {
+  margin: 20px;
+  line-height: 100px;
+  font-size: 40px;
+  color: white;
+}
+
+.h {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.com {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  width: 100%;
+  box-shadow: 0px 5px rgba(128, 128, 128, 0.486);
+}
+
+
+li a {
+  padding: 8px 0 8px 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 19px;
+  display: block;
+  color: white;
+}
+
+body {
+  background: url("./Images/BG.jpg") 0 0 no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+#pan {
+  text-decoration: none;
+  /*
+  background-image: url("./Images/pancakes.jpg");
+  */
+  background-size: 50%;
+  font-weight: 900;
+
+}
+
+#name {
+
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+
+  color: aqua;
+  font-weight: bolder;
+
+}
+
+#name:hover {
+  background-color: black;
+}
+
+#text {
+
+  padding: 20px;
+  margin-left: 0px;
+  color: aqua;
+  font-weight: bolder;
+}
+
+#text:hover {
+  background-color: black;
+
+  font-size: 19px;
+
+}
+
+#textsection {
+  float: right;
+  width: 250px;
+  height: 70%;
+  overflow: scroll;
+
+}
+
+
+
+#control {
+  float: right;
+}
+
+#demo {
+  text-decoration: underline overline;
+  text-decoration-color: gold;
+  color: red;
+
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+#post {
+  border: none;
+  background-color: skyblue;
+  padding: 12px;
+}
+
+#names {
+  color: skyblue;
+
+}
+
+#comments {
+  color: skyblue;
+}
+
+#chin {
+  text-decoration: none;
+  /*
+  background-image: url("./Images/chin.jpg");
+  */
+
+}
+
+
+#cocconut {
+  text-decoration: none;
+  /*
+  background-image: url("./Images/ricec.jpg");
+  */
+  background-size: contain;
+  font-size: 35px;
+}
