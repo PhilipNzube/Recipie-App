@@ -49,12 +49,11 @@ export default function BeccaRecepies() {
     }
 
     let url = null;
-    var navdisplay = document.getElementById("NAVIGATION");
     const Show = () => {
-        navdisplay.style.display = "block";
+        document.getElementById("NAVIGATION").style.display = "block";
     }
     const Hide = () => {
-        navdisplay.style.display = "none";
+        document.getElementById("NAVIGATION").style.display = "none";
     }
     return (
         <>
