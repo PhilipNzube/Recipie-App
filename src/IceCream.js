@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import pancake from "./Images/pancakes.jpeg"
+import IC from './Images/ice cream.jfif';
 
-export default function Pancakes() {
+export default function IceCream() {
     useEffect(() => {
         setTimeout(() => {
             document.body.style.overflowY = "hidden";
@@ -18,7 +18,6 @@ export default function Pancakes() {
     const GoHome = () => {
         Navigate("/");
     }
-
     const GoToContact = () => {
         Navigate("/Contact");
     }
@@ -46,43 +45,33 @@ export default function Pancakes() {
                         </div>
                     </nav>
                 </header>
+
                 <div className="wh">
                     <center>
-                        <h2> Recipes for Pancakes </h2>
-                        <img alt="" src={pancake} id="PancakeImage" />
+                        <h2>  Recipes for Ice cream </h2>
+                        <img alt="" id="IceCreamImage" src={IC} />
                         <div id="main">
                             <p id="in">INGREDIENTS REQUIRED</p>
                             <div id="source">
-                                <p> 3 cup of Flour </p>
-                                <p> 5 tablespoons of sugar</p>
-                                <p>3 tablespoons of powder Milk </p>
-                                <p>2  Eggs</p>
-                                <p> 1 teaspoon of dry Pepper</p>
-                                <p> Vegetable oil</p>
-
+                                <p> Condensed milk (1 ton)</p>
+                                <p> Heavy whip Cream (1 cup)</p>
+                                <p> Vanilla extrsct (2 teaspoons vanila extract)</p>
+                                <p> 3/4 cup white sugar</p>
+                                <p> Egg yolks (6 large)</p>
 
 
                             </div>
+                            <h2> Direction Ice cream preparation</h2>
+                            <ul>
+                                <li> Stir milk, sugar and cream altogether in a pan over low heat until sugar completely dissolves about 5 minutes; remove pan from pan </li>
+                                <li>In a seperate bowl, whisk yolks. whisking constantly, slowly whisk about  third of the hot cream into the yolks, then whisk the yolk mixture back into the pot with the
+                                    cream. Return pan to medium low heat and gently cook until mixture is thick enough to coat the back of a spoon ( about 170 degrees on an instant read thermonmeter)
+                                </li>
+                                <li> strain through a fine-mesh sieve into a bowl cool mixture to room temperature cover and chill at least 4 hours or  overnight,  store the ice cream in frezer until needed.</li>
+                            </ul>
+
 
                         </div>
-                        <h2> Direction for Dough</h2>
-                        <ul>
-                            <li> Add the flour to a  bowl</li>
-                            <li> Add the Sugar to the bowl</li>
-                            <li> Add the Pepper to the bowl</li>
-                            <li> whisk the eggs with the milk in a seperate bowl </li>
-                            <li> Mix the above all together </li>
-                            <li> Then add some water until the mixture is semi-liquid and allow it to rest for 2 minutes</li>
-                        </ul>
-                        <h2> Direction for making Pancakes</h2>
-                        <ul>
-                            <li>Heat a Frying Pan for a minute</li>
-                            <li> Add 1 teaspoon of oil to the Frying pan and spread it round the frying pan with a brush</li>
-                            <li>Add appropriate amount of the dough that was prepared earlier in the pan</li>
-                            <li> When bubbles starts to form ontop and the edge look dry flip the pancakes to other side</li>
-                            <li> After filping Wait for two minutes then remove the pancake from the pan</li>
-                            <li> Repeat the above process until the dough is finished</li>
-                        </ul>
                     </center>
                 </div>
             </div>

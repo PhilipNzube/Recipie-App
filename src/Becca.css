@@ -1,4 +1,142 @@
-@media only screen and (min-width: 779px) {
+@media only screen and (min-width: 1130px) {
+  #ChinImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #TomatoImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #FriedImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #EweduImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PuffImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PancakeImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #SpringRollImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #JellofImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #CakeImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #CoconutRiceImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #MeatpieImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #VegetablesImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #OkraImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #BeansImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #FishPepperSoupImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #IceCreamImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PepperSoup {
+    position: relative;
+    bottom: 300px;
+  }
+
+  #Drinks {
+    position: relative;
+    bottom: 100px;
+  }
+
   wh {
     font-size: 20px;
     padding-bottom: 1000px;
@@ -7,12 +145,12 @@
     border-radius: 5px;
   }
 
-  #Loader{
+  #Loader {
     margin-top: 25%;
     font-size: 280%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    color:rgb(66, 2, 2);
+    color: rgb(66, 2, 2);
     text-shadow: 0px 0px 5px;
   }
 
@@ -26,10 +164,10 @@
   }
 
   #Home {
-    position: relative;
-    left: 5%;
+    position: fixed;
+    left: 1%;
     font-size: 120%;
-    color: blue;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
@@ -37,397 +175,1201 @@
     position: relative;
     left: 45%;
     font-size: 120%;
-    color: blue;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   #Contact {
-    position: relative;
-    left: 80%;
+    position: fixed;
+    right: 1%;
     font-size: 120%;
-    color: blue;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   #meat {
     position: relative;
-    left:2%;
+    left: 2%;
     width: 20%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/meatpie.jpeg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #meat:hover{
+
+  #meat:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #MeatText{
+
+  #MeatText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
-  
+
   #beans {
     position: relative;
-    left:2%;
+    left: 2%;
     width: 20%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #beans:hover{
+
+  #beans:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #BeansText{
+
+  #BeansText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
-  
+
   #tomato {
     position: relative;
-    left:78%;
+    left: 78%;
     bottom: 560px;
     width: 20%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/tomato.jpeg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #tomato:hover{
+
+  #tomato:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #TomatoText{
+
+  #TomatoText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
 
-  #vegetable{
+  #vegetable {
     position: relative;
     bottom: 400px;
-    left:78%;
+    left: 78%;
     width: 20%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/vegetable.jpg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #vegetable:hover{
+
+  #vegetable:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #VegetableText{
+
+  #VegetableText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
 
   #chin {
     position: relative;
     bottom: 480px;
-    left:78%;
+    left: 78%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/chin.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #chin:hover{
+
+  #chin:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #ChinChinText{
+
+  #ChinChinText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #ewedu {
     position: relative;
-    left:2%;
+    left: 2%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/ewedu1.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #ewedu:hover{
+
+  #ewedu:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #EweduText{
+
+  #EweduText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #fried {
     position: relative;
-    left:40%;
+    left: 40%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/fried.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #fried:hover{
+
+  #fried:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #FriedText{
+
+  #FriedText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #jellof {
     position: relative;
-    left:2%;
+    left: 2%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/jollof.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #jellof:hover{
+
+  #jellof:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #JellofText{
+
+  #JellofText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #pancakes {
     position: relative;
-    left:40%;
+    left: 40%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/pancakes.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #pancakes:hover{
+
+  #pancakes:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #PancakeText{
+
+  #PancakeText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #puff {
     position: relative;
     bottom: 100px;
-    left:2%;
+    left: 2%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/puff.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #puff:hover{
+
+  #puff:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #PuffPuffText{
+
+  #PuffPuffText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #spring {
     position: relative;
-    left:40%;
+    left: 40%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/spring.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #spring:hover{
+
+  #spring:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #SpringRollText{
+
+  #SpringRollText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #cake {
     position: relative;
-    bottom:380px;
-    left:78%;
+    bottom: 380px;
+    left: 78%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/Cake.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #cake:hover{
+
+  #cake:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #CakeText{
+
+  #CakeText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #coconut {
     position: relative;
     bottom: 390px;
-    left:78%;
+    left: 78%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/ricec.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #coconut:hover{
+
+  #coconut:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #CoconutText{
+
+  #CoconutText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 230%;
   }
+
   #okra {
     position: relative;
-    left:40%;
+    left: 40%;
     width: 20%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/okra.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #okra:hover{
+
+  #okra:hover {
     box-shadow: 0px 0px 15px;
     width: 20.5%;
   }
-  
-  #OkraText{
+
+  #OkraText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #FishPepperSoup {
+    position: relative;
+    top: 100px;
+    left: 40%;
+    width: 20%;
+    height: 150px;
+    background: black url("./Images/fishpepper-soup.jpg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #FishPepperSoup:hover {
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+
+  #FishPepperSoupText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 230%;
+  }
+
+  #IceCream {
+    position: relative;
+    top: 100px;
+    left: 40%;
+    width: 20%;
+    height: 150px;
+    background: black url("./Images/ice\ cream.jfif") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #IceCream:hover {
+    box-shadow: 0px 0px 15px;
+    width: 20.5%;
+  }
+
+  #IceCreamText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
     font-size: 230%;
   }
 }
 
-@media only screen and (max-width: 780px) {
-  #Home {
+
+
+
+@media only screen and (max-width: 1129px) {
+  #ChinImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #TomatoImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #FriedImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #EweduImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PuffImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PancakeImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #SpringRollImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #JellofImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #CakeImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #CoconutRiceImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #MeatpieImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #VegetablesImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #OkraImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #BeansImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #FishPepperSoupImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #IceCreamImage {
+    width: 30%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PepperSoup {
     position: relative;
+    bottom: 300px;
+  }
+
+  #Drinks {
+    position: relative;
+    bottom: 100px;
+  }
+
+  wh {
+    font-size: 20px;
+    padding-bottom: 1000px;
+    width: 85%;
+    line-height: 2px;
+    border-radius: 5px;
+  }
+
+  #Loader {
+    margin-top: 25%;
+    font-size: 280%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(66, 2, 2);
+    text-shadow: 0px 0px 5px;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(0.2em);
+    box-shadow: 0px 0px 5px;
+    width: 99%;
+  }
+
+  #Home {
+    position: fixed;
     left: 1%;
     font-size: 120%;
-    color: blue;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  #Loader{
+  #About {
+    position: relative;
+    left: 45%;
+    font-size: 120%;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #Contact {
+    position: fixed;
+    right: 1%;
+    font-size: 120%;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #meat {
+    position: relative;
+    left: 2%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/meatpie.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #meat:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #MeatText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #beans {
+    position: relative;
+    left: 2%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #beans:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #BeansText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #tomato {
+    position: relative;
+    left: 68%;
+    bottom: 560px;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/tomato.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #tomato:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #TomatoText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #vegetable {
+    position: relative;
+    bottom: 380px;
+    left: 68%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/vegetable.jpg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #vegetable:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #VegetableText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #chin {
+    position: relative;
+    bottom: 480px;
+    left: 68%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/chin.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #chin:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #ChinChinText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #ewedu {
+    position: relative;
+    left: 2%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/ewedu1.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #ewedu:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #EweduText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #fried {
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/fried.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #fried:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #FriedText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #jellof {
+    position: relative;
+    left: 2%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/jollof.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #jellof:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #JellofText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #pancakes {
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/pancakes.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #pancakes:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #PancakeText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #puff {
+    position: relative;
+    bottom: 100px;
+    left: 2%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/puff.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #puff:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #PuffPuffText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #spring {
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/spring.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #spring:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #SpringRollText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #cake {
+    position: relative;
+    bottom: 380px;
+    left: 68%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/Cake.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #cake:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #CakeText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #coconut {
+    position: relative;
+    bottom: 390px;
+    left: 68%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/ricec.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #coconut:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #CoconutText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #okra {
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/okra.jpeg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #okra:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #OkraText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #FishPepperSoup {
+    position: relative;
+    top: 100px;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/fishpepper-soup.jpg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #FishPepperSoup:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #FishPepperSoupText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 230%;
+  }
+
+  #IceCream {
+    position: relative;
+    top: 100px;
+    left: 35%;
+    width: 30%;
+    height: 150px;
+    background: black url("./Images/ice\ cream.jfif") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #IceCream:hover {
+    box-shadow: 0px 0px 15px;
+    width: 30.5%;
+  }
+
+  #IceCreamText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+}
+
+
+
+@media only screen and (max-width: 780px) {
+  #ChinImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #TomatoImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #FriedImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #EweduImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PuffImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PancakeImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #SpringRollImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #JellofImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #CakeImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #CoconutRiceImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #MeatpieImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #VegetablesImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #OkraImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #BeansImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #FishPepperSoupImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #IceCreamImage {
+    width: 80%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+  }
+
+  #PepperSoup {
+    position: relative;
+    top: 0px;
+    bottom: 300px;
+  }
+
+  #Drinks {
+    position: relative;
+    top: 0px;
+    bottom: 100px;
+  }
+
+  #Home {
+    position: fixed;
+    left: 0%;
+    font-size: 120%;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #Loader {
     margin-top: 70%;
     font-size: 280%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    color:rgb(66, 2, 2);
+    color: rgb(66, 2, 2);
     text-shadow: 0px 0px 5px;
   }
 
   #About {
     position: relative;
-    left: 30%;
+    left: 43%;
     font-size: 120%;
-    color: blue;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   #Contact {
-    position: relative;
-    left: 60%;
+    position: fixed;
+    right: 0%;
     font-size: 120%;
-    color: blue;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
@@ -462,343 +1404,410 @@
 
   #meat {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/meatpie.jpeg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #meat:hover{
+
+  #meat:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #MeatText{
+
+  #MeatText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
-  
+
   #beans {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #beans:hover{
+
+  #beans:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #BeansText{
+
+  #BeansText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
-  
+
   #tomato {
     position: relative;
-    left:2.5%;
+    top: 0px;
+    left: 2.5%;
     width: 95%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/tomato.jpeg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #tomato:hover{
+
+  #tomato:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #TomatoText{
+
+  #TomatoText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
 
-  #vegetable{
+  #vegetable {
     position: relative;
-    left:2.5%;
+    top: 0px;
+    left: 2.5%;
     width: 95%;
-    height:150px;
+    height: 150px;
     background: black url("./Images/vegetable.jpg") 0 0 no-repeat;
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #vegetable:hover{
+
+  #vegetable:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #VegetableText{
+
+  #VegetableText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
 
   #chin {
     position: relative;
-    left:2.5%;
+    bottom: 0px;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/chin.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #chin:hover{
+
+  #chin:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #ChinChinText{
+
+  #ChinChinText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #ewedu {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/ewedu1.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #ewedu:hover{
+
+  #ewedu:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #EweduText{
+
+  #EweduText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #fried {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/fried.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #fried:hover{
+
+  #fried:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #FriedText{
+
+  #FriedText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #jellof {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/jollof.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #jellof:hover{
+
+  #jellof:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #JellofText{
+
+  #JellofText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #pancakes {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/pancakes.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #pancakes:hover{
+
+  #pancakes:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #PancakeText{
+
+  #PancakeText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #puff {
     position: relative;
-    left:2.5%;
+    top: 0px;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/puff.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #puff:hover{
+
+  #puff:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #PuffPuffText{
+
+  #PuffPuffText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #spring {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/spring.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #spring:hover{
+
+  #spring:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #SpringRollText{
+
+  #SpringRollText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #cake {
     position: relative;
-    left:2.5%;
+    top: 0px;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/Cake.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #cake:hover{
+
+  #cake:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #CakeText{
+
+  #CakeText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #coconut {
     position: relative;
-    left:2.5%;
+    top: 0px;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/ricec.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #coconut:hover{
+
+  #coconut:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #CoconutText{
+
+  #CoconutText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
   }
+
   #okra {
     position: relative;
-    left:2.5%;
+    left: 2.5%;
     width: 95%;
-    height:150px;
-    /* background: black url("./Images/beanss.jpeg") 0 0 no-repeat;
-    background-size: cover; */
+    height: 150px;
+    background: black url("./Images/okra.jpeg") 0 0 no-repeat;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     cursor: pointer;
   }
-  
-  #okra:hover{
+
+  #okra:hover {
     box-shadow: 0px 0px 15px;
     width: 95.5%;
   }
-  
-  #OkraText{
+
+  #OkraText {
     color: blue;
     text-align: center;
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 200%;
+  }
+
+  #FishPepperSoup {
+    position: relative;
+    top: 0px;
+    left: 2.5%;
+    width: 95%;
+    height: 150px;
+    background: black url("./Images/fishpepper-soup.jpg") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #FishPepperSoup:hover {
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+
+  #FishPepperSoupText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
+  }
+
+  #IceCream {
+    position: relative;
+    top: 0px;
+    left: 2.5%;
+    width: 95%;
+    height: 150px;
+    background: black url("./Images/ice\ cream.jfif") 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+  }
+
+  #IceCream:hover {
+    box-shadow: 0px 0px 15px;
+    width: 95.5%;
+  }
+
+  #IceCreamText {
+    color: blue;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 230%;
   }
 
   #name {
@@ -834,6 +1843,7 @@
 
 #Container {
   display: none;
+  overflow-x: hidden;
 }
 
 #NAVIGATION {
@@ -841,86 +1851,45 @@
   text-decoration: none;
 }
 
-#ChinImage {
-  width: 20%;
-  height:150px;
-  background-size: cover;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px;
-  cursor: pointer;
-}
 
-#PuffImage {
-  width: 20%;
-  height:150px;
-  background-size: cover;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px;
-  cursor: pointer;
-}
-
-#PancakeImage {
-  width: 20%;
-  height:150px;
-  background-size: cover;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px;
-  cursor: pointer;
-}
-
-#SpringRollImage {
-  width: 20%;
-  height:150px;
-  background-size: cover;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px;
-  cursor: pointer;
-}
-
-#JellofImage {
-  width: 20%;
-  height:150px;
-  background-size: cover;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px;
-  cursor: pointer;
-}
 
 #Home {
   font-size: 120%;
-  color: blue;
+  color: red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #About {
   font-size: 120%;
-  color: blue;
+  color: red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #Contact {
   font-size: 120%;
-  color: blue;
+  color: red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#Home:hover{
+#Home:hover {
   cursor: pointer;
 }
 
-#About:hover{
+#About:hover {
   cursor: pointer;
 }
 
-#Contact:hover{
+#Contact:hover {
   cursor: pointer;
 }
 
 
-h2{
+h2 {
   text-decoration: underline;
   text-decoration-color: rgb(80, 0, 0);
   text-decoration-thickness: 6px;
+  text-underline-offset: 10%;
+  text-decoration-skip-ink: none;
 }
 
 body {
@@ -947,68 +1916,88 @@ body {
   backdrop-filter: blur(0.2em);
 }
 
-@keyframes SlideIn{
-  0%{
-    margin-top: 510px; 
+@keyframes SlideIn {
+  0% {
+    margin-top: 510px;
   }
-  5%{
-    margin-top: 460px; 
+
+  5% {
+    margin-top: 460px;
   }
-  10%{
-    margin-top: 430px; 
+
+  10% {
+    margin-top: 430px;
   }
-  15%{
-    margin-top: 400px; 
+
+  15% {
+    margin-top: 400px;
   }
-  20%{
-    margin-top: 370px; 
+
+  20% {
+    margin-top: 370px;
   }
-  25%{
-    margin-top: 340px; 
+
+  25% {
+    margin-top: 340px;
   }
-  30%{
+
+  30% {
     margin-top: 310px;
   }
-  35%{
+
+  35% {
     margin-top: 280px;
   }
-  40%{
+
+  40% {
     margin-top: 250px;
   }
-  45%{
+
+  45% {
     margin-top: 220px;
   }
-  50%{
+
+  50% {
     margin-top: 190px;
   }
-  55%{
+
+  55% {
     margin-top: 160px;
   }
-  60%{
+
+  60% {
     margin-top: 130px;
   }
-  65%{
+
+  65% {
     margin-top: 100px;
   }
-  70%{
+
+  70% {
     margin-top: 90px;
   }
-  75%{
+
+  75% {
     margin-top: 80px;
   }
-  80%{
+
+  80% {
     margin-top: 70px;
   }
-  85%{
+
+  85% {
     margin-top: 60px;
   }
-  90%{
+
+  90% {
     margin-top: 50px;
   }
-  95%{
+
+  95% {
     margin-top: 40px;
   }
-  100%{
+
+  100% {
     margin-top: 30px;
   }
 }
@@ -1040,8 +2029,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ul {
-
+#HAC {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -1062,7 +2050,7 @@ li a {
 body {
   background: url("./Images/BG.jpg") 0 0 no-repeat;
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
 #pan {
@@ -1159,4 +2147,13 @@ body {
   */
   background-size: contain;
   font-size: 35px;
+}
+
+#in{
+  font-weight: bolder;
+  font-size: larger;
+  text-shadow: 0px 0px 10px rgb(248, 0, 0);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
 }

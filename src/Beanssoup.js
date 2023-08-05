@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import pancake from "./Images/pancakes.jpeg"
+import Beans from './Images/beanss.jpeg';
 
-export default function Pancakes() {
+export default function Beanssoup() {
     useEffect(() => {
         setTimeout(() => {
             document.body.style.overflowY = "hidden";
@@ -22,6 +22,7 @@ export default function Pancakes() {
     const GoToContact = () => {
         Navigate("/Contact");
     }
+
     const Show = () => {
         document.getElementById("NAVIGATION").style.display = "block";
     }
@@ -46,43 +47,32 @@ export default function Pancakes() {
                         </div>
                     </nav>
                 </header>
+
                 <div className="wh">
                     <center>
-                        <h2> Recipes for Pancakes </h2>
-                        <img alt="" src={pancake} id="PancakeImage" />
+                        <h2> Recipes for Beans-Soup </h2>
+                        <img id="BeansImage" src={Beans} alt="" />
                         <div id="main">
                             <p id="in">INGREDIENTS REQUIRED</p>
                             <div id="source">
-                                <p> 3 cup of Flour </p>
-                                <p> 5 tablespoons of sugar</p>
-                                <p>3 tablespoons of powder Milk </p>
-                                <p>2  Eggs</p>
-                                <p> 1 teaspoon of dry Pepper</p>
-                                <p> Vegetable oil</p>
-
+                                <p> Beans </p>
+                                <p> Palm Oil</p>
+                                <p> Seasoning</p>
+                                <p> Potash</p>
 
 
                             </div>
+                            <h2> Direction for making Beans-Soup</h2>
+                            <ul>
+                                <li> Put the desire qunatity of beans in a bowl and add little water</li>
+                                <li> Pour the above in food processor to peel the back of the beans</li>
+                                <li> After peeling theback of the beans,  boli the the beans till get soft</li>
+                                <li> After check if it is soft put it in a blender and blend till it is in a liquid form</li>
+                                <li> Now put it in a pot and add seasonings</li>
+                                <li> After adding seasoning allow it to cook for a minute</li>
 
+                            </ul>
                         </div>
-                        <h2> Direction for Dough</h2>
-                        <ul>
-                            <li> Add the flour to a  bowl</li>
-                            <li> Add the Sugar to the bowl</li>
-                            <li> Add the Pepper to the bowl</li>
-                            <li> whisk the eggs with the milk in a seperate bowl </li>
-                            <li> Mix the above all together </li>
-                            <li> Then add some water until the mixture is semi-liquid and allow it to rest for 2 minutes</li>
-                        </ul>
-                        <h2> Direction for making Pancakes</h2>
-                        <ul>
-                            <li>Heat a Frying Pan for a minute</li>
-                            <li> Add 1 teaspoon of oil to the Frying pan and spread it round the frying pan with a brush</li>
-                            <li>Add appropriate amount of the dough that was prepared earlier in the pan</li>
-                            <li> When bubbles starts to form ontop and the edge look dry flip the pancakes to other side</li>
-                            <li> After filping Wait for two minutes then remove the pancake from the pan</li>
-                            <li> Repeat the above process until the dough is finished</li>
-                        </ul>
                     </center>
                 </div>
             </div>

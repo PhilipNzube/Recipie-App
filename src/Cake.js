@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import pancake from "./Images/pancakes.jpeg"
+import cake from "./Images/Cake.jpeg";
 
-export default function Pancakes() {
+export default function Cake() {
     useEffect(() => {
         setTimeout(() => {
             document.body.style.overflowY = "hidden";
@@ -18,7 +18,6 @@ export default function Pancakes() {
     const GoHome = () => {
         Navigate("/");
     }
-
     const GoToContact = () => {
         Navigate("/Contact");
     }
@@ -46,43 +45,37 @@ export default function Pancakes() {
                         </div>
                     </nav>
                 </header>
+
                 <div className="wh">
                     <center>
-                        <h2> Recipes for Pancakes </h2>
-                        <img alt="" src={pancake} id="PancakeImage" />
+                        <h2> Recipes for Cakes </h2>
+                        <img id="CakeImage" src={cake} alt="" />
                         <div id="main">
                             <p id="in">INGREDIENTS REQUIRED</p>
                             <div id="source">
-                                <p> 3 cup of Flour </p>
-                                <p> 5 tablespoons of sugar</p>
-                                <p>3 tablespoons of powder Milk </p>
-                                <p>2  Eggs</p>
-                                <p> 1 teaspoon of dry Pepper</p>
-                                <p> Vegetable oil</p>
-
+                                <p> 4 Cups of all-purpose Flour </p>
+                                <p> 2 cups of sugar</p>
+                                <p> 1 cup of  Milk </p>
+                                <p> 3 Eggs</p>
+                                <p> 227 grams of butter</p>
+                                <p>2 teaspoons of baking powder</p>
 
 
                             </div>
 
                         </div>
-                        <h2> Direction for Dough</h2>
-                        <ul>
-                            <li> Add the flour to a  bowl</li>
-                            <li> Add the Sugar to the bowl</li>
-                            <li> Add the Pepper to the bowl</li>
-                            <li> whisk the eggs with the milk in a seperate bowl </li>
-                            <li> Mix the above all together </li>
-                            <li> Then add some water until the mixture is semi-liquid and allow it to rest for 2 minutes</li>
-                        </ul>
-                        <h2> Direction for making Pancakes</h2>
-                        <ul>
-                            <li>Heat a Frying Pan for a minute</li>
-                            <li> Add 1 teaspoon of oil to the Frying pan and spread it round the frying pan with a brush</li>
-                            <li>Add appropriate amount of the dough that was prepared earlier in the pan</li>
-                            <li> When bubbles starts to form ontop and the edge look dry flip the pancakes to other side</li>
-                            <li> After filping Wait for two minutes then remove the pancake from the pan</li>
-                            <li> Repeat the above process until the dough is finished</li>
-                        </ul>
+                        <div id="recipe">
+                            <h2> Direction on how to make Simple-Cake</h2>
+                            <ul>
+                                <li> Preheat oven to 163C</li>
+                                <li> Add Milk, butter, sugar and beaten eggs to a bowl and mix until it turns white </li>
+                                <li> Add the flour  with the baking powder into a seperate bowl and mix</li>
+                                <li> Then mix two of the above mixture </li>
+                                <li> After doing the above put the mixture in a pan put before putting in the pan make sure to apply flour/butters on the surface of the pan </li>
+                                <li> Then put the pan in oven and bake at 180C for 35 minutes</li>
+                                <li> After to check if the cake is ready you insert a knife in the cake so, if the knife comes out without the raw flour then it is ready</li>
+                            </ul>
+                        </div>
                     </center>
                 </div>
             </div>

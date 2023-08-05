@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Chin from './Images/chin.jpeg';
+import FPS from './Images/fishpepper-soup.jpg';
 
-export default function ChinChin() {
+export default function FishPepperSoup() {
     useEffect(() => {
         setTimeout(() => {
             document.body.style.overflowY = "hidden";
@@ -48,31 +48,39 @@ export default function ChinChin() {
 
                 <div className="wh">
                     <center>
-                        <h2> Recipes for Chin-Chin </h2>
-                        <img alt="" id="ChinImage" src={Chin} />
+                        <h2>  Recipes for Fish peppersoup </h2>
+                        <img alt="" id="FishPepperSoupImage" src={FPS} />
                         <div id="main">
                             <p id="in">INGREDIENTS REQUIRED</p>
                             <div id="source">
-                                <p> 20g of Flour</p>
-                                <p> Sugar</p>
-                                <p>Butter</p>
-                                <p> Baking Powder</p>
-                                <p>Eggs</p>
-                                <p> Nut Meg</p>
-                                <p> Milk</p>
-
+                                <p> 2kg fresh Fish</p>
+                                <p> 110g onions, chopped (1 medium)</p>
+                                <p> Seasioning cubes </p>
+                                <p>1 tablespoons of ground crayfish </p>
+                                <p> 2 scotch bonnet</p>
+                                <p> Salt</p>
+                                <p> 2 Big churu (3 small) ground(nutmeg)</p>
+                                <p> 1/2 teaspoon ground usiza</p>
+                                <p> 2 sticks uda</p>
+                                <p> utasi leaves</p>
 
                             </div>
-                            <h2> Direction for making Chin-Chin</h2>
+                            <h2> Direction on making Fish pepper soup</h2>
                             <ul>
-                                <li> Add flour , baking powder,butter, Nutmeg(optional) and sugar to a bowl and mix it until it looks like a breadcrumbs</li>
-                                <li> Crack eggs in to a bowl, whisk it and add to the above  </li>
-                                <li> Add little quantity of water to the flour until it is slightly strectchy but not sticky and avoid adding too much water to the dough</li>
-                                <li> Cut the dough into smaller chunk and roll out each chunk on a flat surface and cut it to desired shapes</li>
-                                <li> Add oil in a pan and allow the oil to preheat until it is hot </li>
-                                <li> Then fry the dough unitl it is exhausted</li>
+                                <li> Blend scotch pepper, onion and ginger</li>
+                                <li> Toast and grind ehuru, htt uda to just break it open</li>
+                                <li> Wash catfish slices well</li>
+                                <li> Pour hot water over the fish slices and leave to stand for 1-2 minutes, drain and rinse in cold water </li>
+                                <li> Place in pot and add just enough water to just cover the fish place over medium heat</li>
+                                <li> Add onions, seasoning cube, crayfish, peppers and sprinkle some salt</li>
+                                <li> ciover and bring to a boil add ground ehuru uziza and uda, gently shake and swirl your pit, cook 5-8 minutes</li>
+                                <li> Add about 5 leaves of shredded utazi and some water taste and correct seasoning</li>
+                                <li> Cook for another 5-8 minutes unitl fish is well cooked take off the heat</li>
+                                <li> Serve your fish pepper soup</li>
                             </ul>
+
                         </div>
+
                     </center>
                 </div>
             </div>
